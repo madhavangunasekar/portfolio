@@ -373,3 +373,14 @@ a.contact__v:hover{ color:var(--accent-brass); }
   *{ animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; }
   .reveal{ opacity:1; transform:none; }
 }
+
+/* ===== Experience timeline (append to the end of style.css, before the RESPONSIVE block is fine too) ===== */
+.timeline{ list-style:none; margin:0; padding:0 0 0 22px; display:flex; flex-direction:column; gap:20px; border-left:1px solid var(--glass-border); }
+.timeline__item{ padding:26px 26px 22px; position:relative; }
+.timeline__item::before{ content:""; position:absolute; left:-29px; top:32px; width:11px; height:11px; border-radius:50%; background:var(--accent-brass); box-shadow:0 0 0 4px var(--bg-base); }
+.timeline__top{ display:flex; justify-content:space-between; align-items:baseline; gap:12px; flex-wrap:wrap; }
+.timeline__role{ font-family:var(--font-display); font-weight:600; font-size:1.25rem; margin:0; }
+.timeline__date{ font-family:var(--font-mono); font-size:.78rem; color:var(--accent-teal); }
+.timeline__org{ color:var(--text-muted); margin:4px 0 12px; font-size:.92rem; }
+.timeline__list{ margin:0; padding-left:18px; color:var(--text-secondary); font-size:.95rem; display:flex; flex-direction:column; gap:6px; max-width:760px; }
+@media (max-width:720px){ .timeline{ padding-left:16px; } .timeline__item::before{ left:-23px; } }
