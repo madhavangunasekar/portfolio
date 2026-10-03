@@ -3,8 +3,13 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Madhavan Gunasekar — PHP / CodeIgniter Developer</title>
-<meta name="description" content="Portfolio of Madhavan Gunasekar, a PHP developer building ERP, inventory and billing systems with CodeIgniter, Laravel and MySQL." />
+<title>Madhavan Gunasekar — PHP Developer (CodeIgniter, MySQL, REST APIs)</title>
+<meta name="description" content="Madhavan Gunasekar, PHP developer with 1.5+ years of experience building ERP, GST billing and e-commerce systems with CodeIgniter and MySQL. Open to PHP developer roles in Coimbatore and across Tamil Nadu." />
+<meta property="og:title" content="Madhavan Gunasekar — PHP Developer" />
+<meta property="og:description" content="ERP, GST billing and e-commerce systems built with PHP, CodeIgniter and MySQL." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://madhavangunasekar.github.io/portfolio/" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Madhavan Gunasekar","jobTitle":"PHP Developer","email":"madhavangunasekar3@gmail.com","url":"https://madhavangunasekar.github.io/portfolio/","address":{"@type":"PostalAddress","addressRegion":"Tamil Nadu","addressCountry":"IN"},"sameAs":["https://github.com/madhavangunasekar","https://www.linkedin.com/in/madhavan-gunasekar-3706a627a"]}</script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230a0f1a'/%3E%3Ctext x='50' y='66' font-family='Georgia,serif' font-size='52' fill='%23d4a24c' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,374 +17,200 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div class="grain"></div>
-
 <a class="skip-link" href="#main">Skip to content</a>
-
+ 
 <header class="nav" id="nav">
   <div class="nav__inner">
-    <a class="nav__brand" href="#top">
-      <span class="nav__mark">MG</span>
-      <span class="nav__name">Madhavan&nbsp;Gunasekar</span>
-    </a>
-
+    <a class="nav__brand" href="#top"><span class="nav__mark">MG</span><span class="nav__name">Madhavan&nbsp;Gunasekar</span></a>
     <nav class="nav__links" id="navLinks" aria-label="Primary">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
-
-    <a class="btn btn--ghost nav__cta" href="mailto:madhavangunasekar3@gmail.com">Hire me</a>
-
-    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
-      <span></span><span></span><span></span>
-    </button>
+    <a class="btn btn--ghost nav__cta" href="Madhavan_Gunasekar_Resume.pdf" download>Resume</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
   </div>
 </header>
-
+ 
 <main id="main">
-
-  <!-- ============ HERO ============ -->
+ 
   <section class="hero" id="top">
     <div class="glow glow--brass" aria-hidden="true"></div>
     <div class="glow glow--teal" aria-hidden="true"></div>
     <div class="container hero__grid">
-
       <div class="hero__copy reveal">
-        <p class="eyebrow">Statement&nbsp;of&nbsp;Work</p>
-        <h1 class="hero__title">
-          Madhavan<br><span class="hero__title-accent">Gunasekar</span>
-        </h1>
-        <p class="hero__role">PHP Developer — CodeIgniter · Laravel · MySQL</p>
-        <p class="hero__desc">
-          I build ERP, inventory and billing systems for real businesses —
-          ledgers that balance, invoices that print clean, and reports
-          people actually trust. Based in Tamil&nbsp;Nadu, India.
-        </p>
+        <p class="eyebrow">PHP Developer</p>
+        <h1 class="hero__title">Madhavan<br><span class="hero__title-accent">Gunasekar</span></h1>
+        <p class="hero__role">CodeIgniter · MySQL · REST APIs · Laravel (learning)</p>
+        <p class="hero__desc">I build ERP, GST billing and e-commerce systems for real businesses, from first client meeting to server deployment. 1.5+ years of experience, based in Tamil&nbsp;Nadu.</p>
         <div class="hero__actions">
-          <a href="#projects" class="btn btn--primary">View Projects</a>
-          <a href="mailto:madhavangunasekar3@gmail.com" class="btn btn--ghost">Email Me</a>
+          <a href="#projects" class="btn btn--primary">View projects</a>
+          <a href="Madhavan_Gunasekar_Resume.pdf" class="btn btn--ghost" download>Download resume</a>
         </div>
-
         <div class="hero__social">
-          <a href="https://github.com/madhavangunasekar" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a>
-          <span class="dot">·</span>
-          <a href="https://www.linkedin.com/in/madhavan-gunasekar-3706a627a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
+          <a href="https://github.com/madhavangunasekar" target="_blank" rel="noopener noreferrer">GitHub</a><span class="dot">·</span>
+          <a href="https://www.linkedin.com/in/madhavan-gunasekar-3706a627a" target="_blank" rel="noopener noreferrer">LinkedIn</a><span class="dot">·</span>
+          <a href="mailto:madhavangunasekar3@gmail.com">Email</a>
         </div>
       </div>
-
-      <!-- Signature element: glass "invoice" card -->
+ 
       <div class="hero__card-wrap reveal reveal--delay">
         <div class="invoice glass">
           <div class="invoice__head">
-            <div>
-              <p class="invoice__label">Bill&nbsp;of&nbsp;Skills</p>
-              <p class="invoice__no">№ DEV-2026-01</p>
-            </div>
-            <div class="invoice__seal" aria-hidden="true">
-              <svg viewBox="0 0 64 64" width="46" height="46">
-                <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="1.4"/>
-                <circle cx="32" cy="32" r="24" fill="none" stroke="currentColor" stroke-width="1"/>
-                <text x="32" y="38" text-anchor="middle" font-family="Fraunces, serif" font-size="18" fill="currentColor">MG</text>
-              </svg>
-            </div>
+            <div><p class="invoice__label">Bill&nbsp;of&nbsp;Skills</p><p class="invoice__no">№ DEV-2026-01</p></div>
+            <div class="invoice__seal" aria-hidden="true"><svg viewBox="0 0 64 64" width="46" height="46"><circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="32" cy="32" r="24" fill="none" stroke="currentColor" stroke-width="1"/><text x="32" y="38" text-anchor="middle" font-family="Fraunces, serif" font-size="18" fill="currentColor">MG</text></svg></div>
           </div>
-
-          <!-- <p class="invoice__to">Billed&nbsp;to: <span>Your next project</span></p> -->
-
           <div class="invoice__rule"></div>
-
           <ul class="invoice__lines">
-            <li>
-              <span class="invoice__item">PHP &amp; CodeIgniter</span>
-              <span class="invoice__meta">1.5+ yrs</span>
-            </li>
-            <li>
-              <span class="invoice__item">MySQL &amp; Query Tuning</span>
-              <span class="invoice__meta">●●●●○</span>
-            </li>
-            <li>
-              <span class="invoice__item">jQuery / Bootstrap / DataTables</span>
-              <span class="invoice__meta">●●●●●</span>
-            </li>
-            <li>
-              <span class="invoice__item">Laravel &amp; REST APIs</span>
-              <span class="invoice__meta">learning</span>
-            </li>
+            <li><span class="invoice__item">PHP &amp; CodeIgniter</span><span class="invoice__meta">1.5+ yrs</span></li>
+            <li><span class="invoice__item">MySQL &amp; query tuning</span><span class="invoice__meta">1.5+ yrs</span></li>
+            <li><span class="invoice__item">REST APIs (Postman)</span><span class="invoice__meta">1+ yr</span></li>
+            <li><span class="invoice__item">cPanel / CyberPanel</span><span class="invoice__meta">deployed</span></li>
+            <li><span class="invoice__item">Laravel</span><span class="invoice__meta">learning</span></li>
           </ul>
-
           <div class="invoice__rule"></div>
-
-          <div class="invoice__foot">
-            <span class="invoice__status-dot" aria-hidden="true"></span>
-            <span>Status: Available for hire</span>
-          </div>
+          <div class="invoice__foot"><span class="invoice__status-dot" aria-hidden="true"></span><span>Open to PHP developer roles</span></div>
         </div>
       </div>
-
     </div>
   </section>
-
-  <!-- ============ ABOUT ============ -->
+ 
   <section class="section" id="about">
     <div class="container">
       <p class="eyebrow reveal">About</p>
       <h2 class="section__title reveal">Ledgers, not just layouts.</h2>
-
       <div class="about__grid">
         <p class="about__text reveal">
-          I'm a PHP developer based in Tamil Nadu, India, with 1.5+ years of
-          experience building web applications used by real businesses
-          every day. My work centers on <strong>CodeIgniter</strong>-based
-          ERP and billing systems — customer management, purchase &amp;
-          sales, invoicing, inventory, and GST-aware reporting — where the
-          UI has to be clean, the prints have to be accurate, and the
-          numbers always have to add up. I'm currently deepening my skills
-          in <strong>Laravel</strong> and REST API development.
+          I'm a PHP developer who works directly with clients. I sit with them, understand how their business runs, and turn it into software: customer and supplier management, purchase and sales, <strong>GST invoicing</strong>, stock, ledgers and reports. I build in <strong>CodeIgniter</strong> and MySQL, deploy to cPanel and CyberPanel servers, and support the apps after go-live. I'm now learning <strong>Laravel</strong> to widen my backend skills.
         </p>
-
         <div class="stats reveal reveal--delay">
-          <div class="stat glass">
-            <span class="stat__num">1.5+</span>
-            <span class="stat__label">Years of<br>Experience</span>
-          </div>
-          <div class="stat glass">
-            <span class="stat__num">6</span>
-            <span class="stat__label">ERP Modules<br>Shipped</span>
-          </div>
-          <div class="stat glass">
-            <span class="stat__num">3</span>
-            <span class="stat__label">Business Sites<br>Contributed&nbsp;To</span>
-          </div>
+          <div class="stat glass"><span class="stat__num">1.5+</span><span class="stat__label">Years of<br>experience</span></div>
+          <div class="stat glass"><span class="stat__num">6</span><span class="stat__label">Live client<br>projects</span></div>
+          <div class="stat glass"><span class="stat__num">2</span><span class="stat__label">Built<br>independently</span></div>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- ============ SKILLS ============ -->
+ 
   <section class="section section--alt" id="skills">
     <div class="container">
       <p class="eyebrow reveal">Tech Stack</p>
       <h2 class="section__title reveal">Tools of the trade</h2>
-
       <div class="skills__grid">
-
-        <div class="skillcard glass reveal">
-          <p class="skillcard__title">Backend</p>
-          <div class="tags">
-            <span class="tag">PHP</span>
-            <span class="tag">CodeIgniter</span>
-            <span class="tag">Laravel <em>(learning)</em></span>
-            <span class="tag">REST APIs</span>
-          </div>
-        </div>
-
-        <div class="skillcard glass reveal">
-          <p class="skillcard__title">Frontend</p>
-          <div class="tags">
-            <span class="tag">JavaScript</span>
-            <span class="tag">jQuery</span>
-            <span class="tag">Bootstrap</span>
-            <span class="tag">HTML5 / CSS3</span>
-          </div>
-        </div>
-
-        <div class="skillcard glass reveal">
-          <p class="skillcard__title">Data &amp; Reporting</p>
-          <div class="tags">
-            <span class="tag">MySQL</span>
-            <span class="tag">DataTables (server-side)</span>
-            <span class="tag">Print-ready Reports</span>
-            <span class="tag">GST &amp; Billing Logic</span>
-          </div>
-        </div>
-
-        <div class="skillcard glass reveal">
-          <p class="skillcard__title">Workflow</p>
-          <div class="tags">
-            <span class="tag">Git</span>
-            <span class="tag">GitHub</span>
-            <span class="tag">MVC Architecture</span>
-            <span class="tag">Active Record</span>
-          </div>
-        </div>
-
+        <div class="skillcard glass reveal"><p class="skillcard__title">Backend</p><div class="tags"><span class="tag">PHP</span><span class="tag">CodeIgniter</span><span class="tag">REST APIs</span><span class="tag">Laravel <em>(learning)</em></span></div></div>
+        <div class="skillcard glass reveal"><p class="skillcard__title">Frontend</p><div class="tags"><span class="tag">JavaScript</span><span class="tag">jQuery / AJAX</span><span class="tag">Bootstrap</span><span class="tag">HTML5 / CSS3</span></div></div>
+        <div class="skillcard glass reveal"><p class="skillcard__title">Data &amp; Reporting</p><div class="tags"><span class="tag">MySQL</span><span class="tag">DataTables (server-side)</span><span class="tag">Print-ready reports</span><span class="tag">GST billing logic</span></div></div>
+        <div class="skillcard glass reveal"><p class="skillcard__title">Server &amp; Tools</p><div class="tags"><span class="tag">cPanel</span><span class="tag">CyberPanel</span><span class="tag">Git / GitHub</span><span class="tag">Postman</span></div></div>
       </div>
     </div>
   </section>
-
-  <!-- ============ PROJECTS ============ -->
-  <section class="section" id="projects">
+ 
+  <section class="section" id="experience">
+    <div class="container">
+      <p class="eyebrow reveal">Experience</p>
+      <h2 class="section__title reveal">Where I've worked</h2>
+      <ol class="timeline">
+        <li class="timeline__item glass reveal">
+          <div class="timeline__top"><h3 class="timeline__role">PHP Developer, Freelance / Contract</h3><span class="timeline__date">Aug 2026 – Present</span></div>
+          <p class="timeline__org">Earthmovers Management System, Tamil Nadu</p>
+          <ul class="timeline__list">
+            <li>Completing and maintaining the live system with the client: trips, day booking, invoices, vehicle master and stock.</li>
+            <li>Gather requirements in daily client meetings, ship features and fixes, and manage the CyberPanel server.</li>
+          </ul>
+        </li>
+        <li class="timeline__item glass reveal">
+          <div class="timeline__top"><h3 class="timeline__role">PHP Developer</h3><span class="timeline__date">Jan 2025 – Jul 2026</span></div>
+          <p class="timeline__org">iDreamDevelopers, Coimbatore</p>
+          <ul class="timeline__list">
+            <li>Built and maintained a CodeIgniter ERP: customers, suppliers, purchases, invoices, stock, party ledger and GST reports.</li>
+            <li>Developed REST API endpoints for integrations and optimised MySQL queries to cut load times.</li>
+            <li>Customised the ERP for individual clients and gave production support on live projects.</li>
+            <li>Delivered full client websites with admin panels, including Musak Pumps, a jewellery store and a temple system.</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </section>
+ 
+  <section class="section section--alt" id="projects">
     <div class="container">
       <p class="eyebrow reveal">Projects</p>
       <h2 class="section__title reveal">Selected work</h2>
-      <p class="section__sub reveal">
-        Modules and applications built inside production ERP / billing
-        systems, plus business sites I've contributed to.
-      </p>
-
+      <p class="section__sub reveal">Client work is private, so I describe what I built rather than link the code.</p>
       <div class="projects__grid">
-
+ 
         <article class="project project--flagship glass reveal">
-          <div class="project__top">
-            <span class="tag tag--brass">Core Build</span>
-            <span class="invoice__no">№ ERP-001</span>
-          </div>
+          <div class="project__top"><span class="tag tag--brass">Live · Client</span><span class="invoice__no">№ 001</span></div>
+          <h3 class="project__title">Earthmovers Management System</h3>
+          <p class="project__desc">Business system for trip management, day booking, invoices and vehicle master, with real-time stock tracking and billing. Developed and maintained for over a year with daily client feedback.</p>
+          <div class="tags"><span class="tag">PHP</span><span class="tag">CodeIgniter</span><span class="tag">MySQL</span><span class="tag">CyberPanel</span></div>
+        </article>
+ 
+        <article class="project glass reveal">
+          <div class="project__top"><span class="tag tag--brass">Independent</span><span class="invoice__no">№ 002</span></div>
+          <h3 class="project__title">Flower Shop ERP</h3>
+          <p class="project__desc">Complete ERP with invoices, purchases, vouchers and UPI/cash payment tracking. Built over 4 months of daily client talks and installed for the client's daily use.</p>
+          <div class="tags"><span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">jQuery</span></div>
+        </article>
+ 
+        <article class="project glass reveal">
+          <div class="project__top"><span class="tag tag--brass">Team · Core</span><span class="invoice__no">№ 003</span></div>
           <h3 class="project__title">ERP Management System</h3>
-          <p class="project__desc">
-            End-to-end CodeIgniter ERP covering customer management,
-            supplier management, purchase &amp; sales, billing &amp;
-            invoicing, inventory &amp; stock, and GST-aware reporting —
-            built and maintained as a single connected system.
-          </p>
-          <div class="tags">
-            <span class="tag">PHP</span>
-            <span class="tag">CodeIgniter</span>
-            <span class="tag">MySQL</span>
-            <span class="tag">Bootstrap</span>
-          </div>
+          <p class="project__desc">Sales, purchase, inventory, GST billing, party ledger with running balance, salary reports, dashboard and APIs. Invoice entry has item autocomplete, custom numbering and automatic stock updates.</p>
+          <div class="tags"><span class="tag">CodeIgniter</span><span class="tag">DataTables</span><span class="tag">REST API</span></div>
         </article>
-
+ 
         <article class="project glass reveal">
-          <div class="project__top">
-            <span class="tag tag--brass">Core Build</span>
-            <span class="invoice__no">№ LDG-002</span>
-          </div>
-          <h3 class="project__title">Party Ledger &amp; Statement System</h3>
-          <p class="project__desc">
-            Filtered ledger statements for a cashbill module — print
-            layouts with running balances, backed by dedicated
-            controller/model logic against a ledger table.
-          </p>
-          <div class="tags">
-            <span class="tag">CodeIgniter</span>
-            <span class="tag">MySQL</span>
-            <span class="tag">Print Layouts</span>
-          </div>
+          <div class="project__top"><span class="tag tag--brass">Client</span><span class="invoice__no">№ 004</span></div>
+          <h3 class="project__title">Musak Pumps</h3>
+          <p class="project__desc">Built the admin panel (masters, products, email, settings) that controls every website page, plus the client-facing UI, end to end.</p>
+          <div class="tags"><span class="tag">PHP</span><span class="tag">Bootstrap</span><span class="tag">MySQL</span></div>
         </article>
-
+ 
         <article class="project glass reveal">
-          <div class="project__top">
-            <span class="tag tag--brass">Core Build</span>
-            <span class="invoice__no">№ SAL-003</span>
-          </div>
-          <h3 class="project__title">Salary Reporting Dashboard</h3>
-          <p class="project__desc">
-            Server-side DataTables payroll reporting, rebuilt with a
-            clean, minimal print layout in place of decorative themes —
-            built for clarity, not flash.
-          </p>
-          <div class="tags">
-            <span class="tag">DataTables</span>
-            <span class="tag">jQuery</span>
-            <span class="tag">PHP</span>
-          </div>
+          <div class="project__top"><span class="tag tag--brass">Client</span><span class="invoice__no">№ 005</span></div>
+          <h3 class="project__title">Jewellery Shop E-commerce</h3>
+          <p class="project__desc">Reworked a legacy codebase into a working store: jQuery cart with offcanvas panel, checkout, and order-to-delivery tracking in admin.</p>
+          <div class="tags"><span class="tag">PHP</span><span class="tag">jQuery</span><span class="tag">Bootstrap</span></div>
         </article>
-
+ 
         <article class="project glass reveal">
-          <div class="project__top">
-            <span class="tag tag--brass">Core Build</span>
-            <span class="invoice__no">№ INV-004</span>
-          </div>
-          <h3 class="project__title">Invoice &amp; Billing Module</h3>
-          <p class="project__desc">
-            Invoice entry with item autocomplete, dynamic line items,
-            warranty handling and custom invoice numbering — with stock
-            and report updates triggered automatically on save.
-          </p>
-          <div class="tags">
-            <span class="tag">jQuery UI</span>
-            <span class="tag">PHP</span>
-            <span class="tag">MySQL</span>
-          </div>
+          <div class="project__top"><span class="tag tag--brass">Client</span><span class="invoice__no">№ 006</span></div>
+          <h3 class="project__title">Temple Management</h3>
+          <p class="project__desc">Income and expense scripts with reports, delivered to the client and running live.</p>
+          <div class="tags"><span class="tag">PHP</span><span class="tag">MySQL</span></div>
         </article>
-
-        <article class="project glass reveal">
-          <div class="project__top">
-            <span class="tag tag--brass">Core Build</span>
-            <span class="invoice__no">№ PRP-005</span>
-          </div>
-          <h3 class="project__title">Commercial Property Management</h3>
-          <p class="project__desc">
-            Tabbed intake and management form for commercial property
-            records, structured with Bootstrap tabs inside a CodeIgniter
-            MVC application.
-          </p>
-          <div class="tags">
-            <span class="tag">CodeIgniter</span>
-            <span class="tag">Bootstrap</span>
-          </div>
-        </article>
-
-        <article class="project glass reveal">
-          <div class="project__top">
-            <span class="tag">Contributed</span>
-            <span class="invoice__no">№ WEB-006</span>
-          </div>
-          <h3 class="project__title">Business &amp; eCommerce Websites</h3>
-          <p class="project__desc">
-            Contributed to a jewellery eCommerce site, an earthmovers
-            business website, and a pumps company website — covering
-            both front-end build-out and PHP backend work.
-          </p>
-          <div class="tags">
-            <span class="tag">PHP</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">Bootstrap</span>
-          </div>
-        </article>
-
+ 
       </div>
     </div>
   </section>
-
-  <!-- ============ CONTACT ============ -->
-  <section class="section section--alt" id="contact">
+ 
+  <section class="section" id="contact">
     <div class="container contact__wrap">
       <p class="eyebrow reveal">Contact</p>
-      <h2 class="section__title reveal">Let's balance the books<br>on your next build.</h2>
-      <p class="section__sub reveal">
-        Open to freelance work, full-time roles, and anything in between
-        that involves PHP, CodeIgniter and systems that need to be
-        reliable.
-      </p>
-
+      <h2 class="section__title reveal">Hiring a PHP developer?<br>Let's talk.</h2>
+      <p class="section__sub reveal">Open to full-time PHP roles, with walk-in interviews welcome, and to freelance work.</p>
       <div class="contact__card glass reveal">
-        <div class="contact__row">
-          <span class="contact__k">Email</span>
-          <a class="contact__v" href="mailto:madhavangunasekar3@gmail.com">madhavangunasekar3@gmail.com</a>
-        </div>
+        <div class="contact__row"><span class="contact__k">Email</span><a class="contact__v" href="mailto:madhavangunasekar3@gmail.com">madhavangunasekar3@gmail.com</a></div>
         <div class="contact__rule"></div>
-        <div class="contact__row">
-          <span class="contact__k">LinkedIn</span>
-          <a class="contact__v" href="https://www.linkedin.com/in/madhavan-gunasekar-3706a627a" target="_blank" rel="noopener noreferrer">madhavan-gunasekar</a>
-        </div>
+        <div class="contact__row"><span class="contact__k">Phone</span><a class="contact__v" href="tel:+917806876370">+91 78068 76370</a></div>
         <div class="contact__rule"></div>
-        <div class="contact__row">
-          <span class="contact__k">GitHub</span>
-          <a class="contact__v" href="https://github.com/madhavangunasekar" target="_blank" rel="noopener noreferrer">@madhavangunasekar</a>
-        </div>
+        <div class="contact__row"><span class="contact__k">LinkedIn</span><a class="contact__v" href="https://www.linkedin.com/in/madhavan-gunasekar-3706a627a" target="_blank" rel="noopener noreferrer">madhavan-gunasekar</a></div>
         <div class="contact__rule"></div>
-        <div class="contact__row">
-          <span class="contact__k">Location</span>
-          <span class="contact__v contact__v--static">Tamil Nadu, India</span>
-        </div>
+        <div class="contact__row"><span class="contact__k">GitHub</span><a class="contact__v" href="https://github.com/madhavangunasekar" target="_blank" rel="noopener noreferrer">@madhavangunasekar</a></div>
+        <div class="contact__rule"></div>
+        <div class="contact__row"><span class="contact__k">Location</span><span class="contact__v contact__v--static">Tamil Nadu, India</span></div>
       </div>
     </div>
   </section>
-
 </main>
-
+ 
 <footer class="footer">
-  <div class="container footer__inner">
-    <span>© <span id="year"></span> Madhavan Gunasekar</span>
-    <span class="footer__dot">·</span>
-    <span>Built line by line, like a good ledger.</span>
-  </div>
+  <div class="container footer__inner"><span>© <span id="year"></span> Madhavan Gunasekar</span><span class="footer__dot">·</span><span>Built line by line, like a good ledger.</span></div>
 </footer>
-
 <script src="script.js"></script>
 </body>
 </html>
